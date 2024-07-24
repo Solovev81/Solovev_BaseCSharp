@@ -6,48 +6,55 @@ using System.Threading.Tasks;
 
 namespace MyBaseCSharp.Task1
 {
-    public class TaskJob3
+    public class TaskJob3<T> where T : struct
     {
         // Создать консольное приложение, в котором можно задать минимальное
         // и максимальное число(тип int), после чего в консоль выводятся все
         // простые числа в указанном промежутке.
 
-        public int MaxValue { get; set; }
-        public int MinValue { get; set; }
+        public T MaxValue { get; set; }
+        public T MinValue { get; set; }
 
-        public TaskJob3(int maxValue, int minValue)
+        public TaskJob3(T maxValue, T minValue)
         {
             MaxValue = maxValue;
             MinValue = minValue;
-            // Valadation();
+            Valadation();
         }
 
-        // private void Valadation()
-        // {
-        //     if (!(MaxValue is int) || !(MinValue is int))
-        //     {
-        //         throw new Exception("Это не типа int");
-        //     }
-        //     PrintAllSimpleNumsInRange();
-        // }
-
-        private void PrintAllSimpleNumsInRange()
+        private void Valadation()
         {
-            for (; MinValue <= MaxValue; MinValue++)
+            if (!(MaxValue is int && MinValue is int))
             {
-                if (MinValue >= 1)
+                throw new Exception("Это не типа int");
+            }
+        }
+
+        private bool SimpleNum(int min)
+        {
+            if (!(min > 1))
+            {
+                return false;
+            }
+
+            for (int i = 2; i <= Math.Sqrt(min); i++)
+            {
+                if (min % i == 0)
+                    return false;
+            }
+            return true;
+        }
+
+        public void PrintAllSimpleNumsInRange()
+        {
+            int max = (int)(object)MaxValue;
+            int min = (int)(object)MinValue;
+
+            for (; min <= max; min++)
+            {
+                if (SimpleNum(min))
                 {
-                    for (int i = 2; i <= Math.Sqrt(MinValue); i++)
-                    {
-                        if (MinValue % i == 0)
-                        {
-                            continue;
-                        }
-                        else
-                        {
-                            Console.WriteLine(MinValue);
-                        }
-                    }
+                    Console.WriteLine(min);
                 }
             }
         }

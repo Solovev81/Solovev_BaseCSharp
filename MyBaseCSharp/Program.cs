@@ -23,21 +23,25 @@
 // //----------
 
 //---------- Task1_job3 ----------
-// TaskJob3 taskJob3 = new TaskJob3(5, 10);
+// TaskJob3<int> taskJob3 = new TaskJob3<int>(10, 5);
+// taskJob3.PrintAllSimpleNumsInRange();
+
+// TaskJob3<float> taskJob4 = new TaskJob3<float>(5.1f, 10.4f);
+// taskJob4.PrintAllSimpleNumsInRange();
 //----------
 
 //---------- Task1_job2 ----------
-TaskJob2<int> taskJob2Int = new TaskJob2<int>(5, 10);
-taskJob2Int.Start();
+// TaskJob2<int> taskJob2Int = new TaskJob2<int>(5, 10);
+// taskJob2Int.Start();
 
-TaskJob2<float> taskJob2Float = new TaskJob2<float>(5.5f, 10.12f);
-taskJob2Float.Start();
+// TaskJob2<float> taskJob2Float = new TaskJob2<float>(5.5f, 10.12f);
+// taskJob2Float.Start();
 
-TaskJob2<double> taskJob2Double = new TaskJob2<double>(5.444d, 10.343d);
-taskJob2Double.Start();
+// TaskJob2<double> taskJob2Double = new TaskJob2<double>(5.444d, 10.343d);
+// taskJob2Double.Start();
 
-TaskJob2<byte> taskJob2Byte = new TaskJob2<byte>(5, 6);
-taskJob2Byte.Start();
+// TaskJob2<byte> taskJob2Byte = new TaskJob2<byte>(5, 6);
+// taskJob2Byte.Start();
 //----------
 
 //---------- Task1_job1 ----------
