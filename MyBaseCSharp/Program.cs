@@ -23,11 +23,11 @@
 // //----------
 
 //---------- Task1_job3 ----------
-// TaskJob3<int> taskJob3 = new TaskJob3<int>(10, 5);
-// taskJob3.PrintAllSimpleNumsInRange();
+TaskJob3<int> taskJob3 = new TaskJob3<int>(100, 5);
+taskJob3.PrintAllSimpleNumsInRange();
 
-// TaskJob3<float> taskJob4 = new TaskJob3<float>(5.1f, 10.4f);
-// taskJob4.PrintAllSimpleNumsInRange();
+TaskJob3<float> taskJob4 = new TaskJob3<float>(5.1f, 10.4f);
+taskJob4.PrintAllSimpleNumsInRange();
 //----------
 
 //---------- Task1_job2 ----------
