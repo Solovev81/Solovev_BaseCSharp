@@ -23,5 +23,17 @@
 //----------
 
 //---------- Task1_job3
+// TaskJob3 taskJob3 = new TaskJob3(5, 10);
 
+// taskJob3.PrintAllSimpleNumsInRange();
+//----------
+
+//---------- Task1_job2
+// TaskJob2<int> taskJob2Int = new TaskJob2<int>(5, 10);
+// TaskJob2<float> taskJob2Float = new TaskJob2<float>(5.5f, 10.12f);
+// TaskJob2<double> taskJob2Double = new TaskJob2<double>(5.444d, 10.343d);
+
+// taskJob2Int.Start();
+// taskJob2Float.Start();
+// taskJob2Double.Start();
 //----------
