@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -18,11 +19,37 @@ namespace MyBaseCSharp.Task1
         {
             MaxValue = maxValue;
             MinValue = minValue;
+            // Valadation();
         }
 
-        public void PrintAllSimpleNumsInRange()
-        {
+        // private void Valadation()
+        // {
+        //     if (!(MaxValue is int) || !(MinValue is int))
+        //     {
+        //         throw new Exception("Это не типа int");
+        //     }
+        //     PrintAllSimpleNumsInRange();
+        // }
 
+        private void PrintAllSimpleNumsInRange()
+        {
+            for (; MinValue <= MaxValue; MinValue++)
+            {
+                if (MinValue >= 1)
+                {
+                    for (int i = 2; i <= Math.Sqrt(MinValue); i++)
+                    {
+                        if (MinValue % i == 0)
+                        {
+                            continue;
+                        }
+                        else
+                        {
+                            Console.WriteLine(MinValue);
+                        }
+                    }
+                }
+            }
         }
     }
 }
