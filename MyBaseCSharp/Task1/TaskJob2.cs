@@ -19,6 +19,17 @@ namespace MyBaseCSharp.Task1
         {
             FirstNum = firstNum;
             SecondNum = secondNum;
+            Valadation();
+        }
+
+        private void Valadation()
+        {
+            if (!((FirstNum is int && SecondNum is int)
+            || (FirstNum is float && SecondNum is float)
+            || (FirstNum is double && SecondNum is double)))
+            {
+                throw new Exception("Доступны только простые типы int,float,double");
+            }
         }
 
         private void Sum()
