@@ -1,0 +1,14 @@
+/home/dunice/dotnet/Solovev_BaseCsharp0/MyBaseCSharp/bin/Debug/net8.0/MyBaseCSharp
+/home/dunice/dotnet/Solovev_BaseCsharp0/MyBaseCSharp/bin/Debug/net8.0/MyBaseCSharp.deps.json
+/home/dunice/dotnet/Solovev_BaseCsharp0/MyBaseCSharp/bin/Debug/net8.0/MyBaseCSharp.runtimeconfig.json
+/home/dunice/dotnet/Solovev_BaseCsharp0/MyBaseCSharp/bin/Debug/net8.0/MyBaseCSharp.dll
+/home/dunice/dotnet/Solovev_BaseCsharp0/MyBaseCSharp/bin/Debug/net8.0/MyBaseCSharp.pdb
+/home/dunice/dotnet/Solovev_BaseCsharp0/MyBaseCSharp/obj/Debug/net8.0/MyBaseCSharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/dunice/dotnet/Solovev_BaseCsharp0/MyBaseCSharp/obj/Debug/net8.0/MyBaseCSharp.AssemblyInfoInputs.cache
+/home/dunice/dotnet/Solovev_BaseCsharp0/MyBaseCSharp/obj/Debug/net8.0/MyBaseCSharp.AssemblyInfo.cs
+/home/dunice/dotnet/Solovev_BaseCsharp0/MyBaseCSharp/obj/Debug/net8.0/MyBaseCSharp.csproj.CoreCompileInputs.cache
+/home/dunice/dotnet/Solovev_BaseCsharp0/MyBaseCSharp/obj/Debug/net8.0/MyBaseCSharp.dll
+/home/dunice/dotnet/Solovev_BaseCsharp0/MyBaseCSharp/obj/Debug/net8.0/refint/MyBaseCSharp.dll
+/home/dunice/dotnet/Solovev_BaseCsharp0/MyBaseCSharp/obj/Debug/net8.0/MyBaseCSharp.pdb
+/home/dunice/dotnet/Solovev_BaseCsharp0/MyBaseCSharp/obj/Debug/net8.0/MyBaseCSharp.genruntimeconfig.cache
+/home/dunice/dotnet/Solovev_BaseCsharp0/MyBaseCSharp/obj/Debug/net8.0/ref/MyBaseCSharp.dll
