@@ -37,3 +37,8 @@
 // taskJob2Float.Start();
 // taskJob2Double.Start();
 //----------
+
+//---------- Task1_job1
+TaskJob1 taskJob1 = new TaskJob1();
+taskJob1.GetAllMaxMinValueOfTypes();
+//----------
